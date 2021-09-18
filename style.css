@@ -1,0 +1,167 @@
+/* ----------------home-------------------- */
+.logo {
+  line-height: 90px;
+  padding-top: 20px;
+}
+.logo p {
+  padding-bottom: 0;
+  color: yellow;
+  font-size: 80px;
+  font-family: "Courier New", Courier, "Times New Roman", Times, serif;
+}
+.logo img {
+  border-radius: 50%;
+  width: 120px;
+  height: 110px;
+}
+.menu {
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  text-align: center;
+  color: black;
+  width: 100%;
+}
+header {
+  padding-top: 60px;
+}
+/* menu */
+.sub-menu {
+  font-size: 19px;
+  /* color: rgb(155, 38, 38); */
+  background-color: #fff;
+}
+.heading1 {
+  padding-top: 20px;
+}
+
+.sub-menu .container .menu-list li a {
+  color: black;
+}
+.sub-menu .container a:hover,
+.sub-menu .container .menu-list li a:hover {
+  color: yellow;
+}
+.btn-search {
+  width: 150px;
+}
+/* .sub-menu .container a:visited,
+.sub-menu .container .menu-list li a:visited{
+  color:rgb(233, 73, 10);
+} */
+/* .sub-menu .container .menu-list li a:visited{
+  color: red;
+} */
+
+/* sanpham */
+.container .sanpham .hovesp .card:hover {
+  box-shadow: 0px 0px 10px rgb(51, 48, 48);
+  margin-top: 10px;
+  transition: 0.3s;
+}
+.sanpham .card {
+  /* width: 100%; */
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+/* footer */
+.branch span {
+  padding-bottom: 100px;
+  text-decoration: underline;
+}
+.information a {
+  text-decoration: none;
+  color: black;
+}
+.branch span:hover,
+.information a:hover {
+  cursor: pointer;
+  color: burlywood;
+}
+.information a {
+  display: flex;
+  flex-direction: row;
+  line-height: 30px;
+}
+
+/* ------------------------Dress------------------ */
+.container .menu_sub li a {
+  line-height: 40px;
+  text-decoration: none;
+  color: black;
+}
+.container .menu_sub li a:hover {
+  color: yellow;
+}
+/* .container .menu_sub li a:{
+ color: rgb(172, 32, 32);
+} */
+.container .menu_sub li  {
+  border-top: 0.5px solid rgb(133, 46, 46);
+}
+
+/* san pham */
+.card{
+  width: auto;
+  height: 520px;
+}
+.card img{
+  height: 340px;
+}
+
+
+@media (max-width: 740px) {
+  .sanphammoi{
+    display: flex;
+    flex-direction:column;
+   
+  }
+  .col-3 {
+    flex: 0 0 auto;
+    width: 70%;
+}
+.container .subsanphammoi{
+  width: 340px;
+}
+.menuul{
+  background-color: rgb(92, 76, 65, 0.3);
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+}
+.subli-a{
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 0px 0px;
+}
+}
+
+@media screen and (min-width: 741px) and (max-width:1030px){
+  .card img{
+    height: 157px;
+  }
+ 
+  .menuul{
+    background-color: rgb(92, 76, 65, 0.3);
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .subli-a{
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 0px 0px;
+  }
+  .subsanphammoi .card-body h5 {
+    padding-top: 20px;
+    height: 220px;
+    font-size: 1.25rem;
+}
+.sub-sanpham .card-body h5{
+  padding-top: 20px;
+  height: 180px;
+}
+}
