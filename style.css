@@ -99,58 +99,56 @@ header {
 /* .container .menu_sub li a:{
  color: rgb(172, 32, 32);
 } */
-.container .menu_sub li  {
+.container .menu_sub li {
   border-top: 0.5px solid rgb(133, 46, 46);
 }
 
 /* san pham */
-.card{
+.card {
   width: auto;
   height: 520px;
 }
-.card img{
+.card img {
   height: 340px;
 }
 
-
 @media (max-width: 740px) {
-  .sanphammoi{
+  .sanphammoi {
     display: flex;
-    flex-direction:column;
-   
+    flex-direction: column;
   }
   .col-3 {
     flex: 0 0 auto;
     width: 70%;
-}
-.container .subsanphammoi{
-  width: 340px;
-}
-.menuul{
-  background-color: rgb(92, 76, 65, 0.3);
-  width: 100%;
-  padding-left: 0;
-  padding-right: 0;
-}
-.subli-a{
-  border: 1px solid;
-  padding: 10px;
-  box-shadow: 0px 0px;
-}
-}
-
-@media screen and (min-width: 741px) and (max-width:1020px){
-  .card img{
-    height: 157px;
   }
- 
-  .menuul{
+  .container .subsanphammoi {
+    width: 340px;
+  }
+  .menuul {
     background-color: rgb(92, 76, 65, 0.3);
     width: 100%;
     padding-left: 0;
     padding-right: 0;
   }
-  .subli-a{
+  .subli-a {
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 0px 0px;
+  }
+}
+
+@media screen and (min-width: 741px) and (max-width: 1030px) {
+  .card img {
+    height: 157px;
+  }
+
+  .menuul {
+    background-color: rgb(92, 76, 65, 0.3);
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .subli-a {
     border: 1px solid;
     padding: 10px;
     box-shadow: 0px 0px;
@@ -159,9 +157,18 @@ header {
     padding-top: 20px;
     height: 220px;
     font-size: 1.25rem;
+  }
+  .sub-sanpham .card-body h5 {
+    padding-top: 20px;
+    height: 180px;
+  }
 }
-.sub-sanpham .card-body h5{
-  padding-top: 20px;
-  height: 180px;
+
+
+.contribute h2 a{
+ text-decoration: none;
+ color: rgb(131, 131, 120);
 }
+.contribute h2 a:hover{
+  color: yellow;
 }
